@@ -1,0 +1,152 @@
+:root {
+    --primary-color: #1e3a8a; /* Deep blue */
+    --secondary-color: #3b82f6; /* Bright blue */
+    --accent1-color: #1f2937; /* Dark gray */
+    --accent2-color: #ffffff; /* White */
+    --heading-font: 'Georgia', serif;
+    --body-font: 'Arial', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+    background: #fff;
+}
+
+header {
+    background: #fff;
+    padding: 16px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header img {
+    display: block;
+    margin-bottom: 16px;
+    width: 120px;
+}
+
+nav a {
+    color: var(--primary-color);
+    text-decoration: underline;
+    display: block;
+    margin: 4px 0;
+    font-size: 1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    color: #fff;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    background: rgba(30, 58, 138, 0.85);
+    padding: 12px 0;
+    letter-spacing: 1px;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    right: 24px;
+    background: rgba(30, 58, 138, 0.85);
+    color: #fff;
+    padding: 16px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 0.95rem;
+    gap: 16px;
+}
+
+.hero article p {
+    margin: 0;
+    flex: 1;
+    line-height: 1.4;
+}
+
+.hero article img {
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
+}
+
+section {
+    margin: 16px 0;
+}
+
+section h2 {
+    background: var(--primary-color);
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    padding: 12px 0;
+    margin: 0;
+}
+
+section p {
+    padding: 16px;
+    color: #222;
+    font-size: 1rem;
+    margin: 0;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+footer {
+    background: #fff;
+    padding: 16px;
+    max-width: 900px;
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    margin: 0;
+    color: #222;
+    font-size: 0.9rem;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.socialmedia img {
+    width: 30px;
+    height: 30px;
+}
