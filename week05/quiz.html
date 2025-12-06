@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Basic HTML and CSS Quiz - Test your knowledge of web development fundamentals">
+    <meta name="author" content="Isaac Endicott">
+    <title>Basic HTML and CSS Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+
+<body>
+    <header>
+        <h1>Basic HTML and CSS Quiz</h1>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Test Your Knowledge</legend>
+
+                <div class="question">
+                    <label for="question-one">1. What is the main purpose of the &lt;head&gt; element in an HTML
+                        document?</label>
+                    <input type="text" id="question-one" name="question-one" placeholder="Enter your answer">
+                </div>
+
+                <div class="question">
+                    <label for="question-two">2. Describe how CSS can be used to create a responsive web design.</label>
+                    <textarea id="question-two" name="question-two" rows="4" placeholder="Your answer"></textarea>
+                </div>
+
+                <div class="question">
+                    <label for="question-three">3. Which HTML tag is used to create a numbered list?</label>
+                    <select id="question-three" name="question-three">
+                        <option value="" selected disabled>Choose One ...</option>
+                        <option value="ul">&lt;ul&gt;</option>
+                        <option value="ol">&lt;ol&gt;</option>
+                        <option value="li">&lt;li&gt;</option>
+                        <option value="dl">&lt;dl&gt;</option>
+                    </select>
+                </div>
+
+                <div class="question">
+                    <label for="question-four">4. How many heading levels are available in HTML?</label>
+                    <input type="number" id="question-four" name="question-four" placeholder="Enter a number">
+                </div>
+
+                <button type="submit">Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>
