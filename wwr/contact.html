@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Contact Rapids Adventure for rafting inquiries, reservations, and more. Get in touch with John, Jane, and Bob for the best white water rafting experience.">
+    <meta name="author" content="Isaac Endicott">
+    <title>Contact Us - Rapids Adventure | White Water Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.jpg" alt="Rapids Adventure Logo" width="150">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="company-info">
+            <h2>Rapids Adventure</h2>
+            <div class="company-details">
+                <p>1234 River Road<br>
+                    Moab, Utah 84532<br>
+                    +1 999 999 9999<br>
+                    info@rapidsadventure.com</p>
+            </div>
+        </section>
+
+        <section class="contact-main">
+            <div class="map-section">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49584.42499871741!2d-109.57656237191186!3d38.57359037654841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87477b59fc54ec93%3A0x9cbe8b2e88c34e5f!2sMoab%2C%20UT%2084532!5e0!3m2!1sen!2sus!4v1733516400000"
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="form-section">
+                <form>
+                    <div class="form-row">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" class="form-input" placeholder="Placeholder" required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" placeholder="Placeholder"
+                            required>
+                    </div>
+
+                    <div class="purpose-section">
+                        <h3>Message Purpose</h3>
+                        <div class="purpose-options">
+                            <label>
+                                <input type="radio" name="purpose" value="general" class="radio-input" required>
+                                General Inquiry
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="reservation" class="radio-input" required>
+                                Reservation Question
+                            </label>
+                            <label>
+                                <input type="radio" name="purpose" value="website" class="radio-input" required>
+                                Website Suggestion
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" class="form-textarea" placeholder="Type here..." rows="4"
+                            required></textarea>
+                    </div>
+
+                    <div class="newsletter-row">
+                        <label class="newsletter-label">
+                            <input type="checkbox" name="newsletter" value="subscribe" class="checkbox-input">
+                            Please Subscribe me to the monthly newsletter
+                        </label>
+                    </div>
+
+                    <button type="submit">Contact Us!</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
+            <div class="employee-profiles">
+                <figure>
+                    <img src="images/john-doe-profile.jpg" alt="John Doe - Lead Guide">
+                    <figcaption>John Doe - Lead Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/jane-doe-profile.jpg" alt="Jane Doe - Safety Coordinator">
+                    <figcaption>Jane Doe - Safety Coordinator</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/bob-doe-profile.jpg" alt="Bob Doe - Operations Manager">
+                    <figcaption>Bob Doe - Customer Service</figcaption>
+                </figure>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy;2025 | Rapids! | Isaac Endicott</p>
+            <nav class="socialmedia">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.svg" alt="Facebook" width="30">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/x-icon.svg" alt="Twitter/X" width="30">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.svg" alt="Instagram" width="30">
+                </a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
