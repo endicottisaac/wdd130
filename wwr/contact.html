@@ -24,7 +24,7 @@
 
     <main>
         <section class="company-info">
-            <h2>Rapids Adventure</h2>
+            <h1>Rapids Adventure</h1>
             <div class="company-details">
                 <p>1234 River Road<br>
                     Moab, Utah 84532<br>
@@ -56,16 +56,19 @@
                     <div class="purpose-section">
                         <h3>Message Purpose</h3>
                         <div class="purpose-options">
-                            <label>
-                                <input type="radio" name="purpose" value="general" class="radio-input" required>
+                            <label for="purpose-general">
+                                <input type="radio" id="purpose-general" name="purpose" value="general"
+                                    class="radio-input" required>
                                 General Inquiry
                             </label>
-                            <label>
-                                <input type="radio" name="purpose" value="reservation" class="radio-input" required>
+                            <label for="purpose-reservation">
+                                <input type="radio" id="purpose-reservation" name="purpose" value="reservation"
+                                    class="radio-input" required>
                                 Reservation Question
                             </label>
-                            <label>
-                                <input type="radio" name="purpose" value="website" class="radio-input" required>
+                            <label for="purpose-website">
+                                <input type="radio" id="purpose-website" name="purpose" value="website"
+                                    class="radio-input" required>
                                 Website Suggestion
                             </label>
                         </div>
@@ -78,8 +81,9 @@
                     </div>
 
                     <div class="newsletter-row">
-                        <label class="newsletter-label">
-                            <input type="checkbox" name="newsletter" value="subscribe" class="checkbox-input">
+                        <label for="newsletter" class="newsletter-label">
+                            <input type="checkbox" id="newsletter" name="newsletter" value="subscribe"
+                                class="checkbox-input">
                             Please Subscribe me to the monthly newsletter
                         </label>
                     </div>

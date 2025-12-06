@@ -194,8 +194,8 @@ section p {
 
 footer {
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
     padding: 16px;
+    color: var(--accent1-color);
     margin-top: 32px;
 }
 
@@ -209,7 +209,6 @@ footer {
 
 footer p {
     margin: 0;
-    color: var(--accent1-color);
     font-size: 1rem;
 }
 
@@ -231,6 +230,17 @@ footer p {
 .company-info {
     max-width: 900px;
     margin: 32px auto;
+}
+
+.company-info h1 {
+    background: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: var(--heading-font);
+    font-weight: bold;
+    padding: 16px 0;
+    margin: 0;
 }
 
 .company-details {
