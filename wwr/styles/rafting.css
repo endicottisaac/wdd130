@@ -193,7 +193,7 @@ section p {
 
 .adventures figcaption small {
     font-weight: normal;
-    color: #666;
+    color: var(--accent1-color);
     font-size: 0.8rem;
 }
 
