@@ -93,10 +93,34 @@ main {
     background: rgba(30, 58, 138, 0.85);
     color: var(--accent2-color);
     padding: 16px;
+    font-size: 0.95rem;
+}
+
+.hero article h2 {
+    margin: 0 0 16px 0;
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.hero article .content {
     display: flex;
     align-items: flex-start;
-    font-size: 0.95rem;
     gap: 16px;
+}
+
+.hero article p {
+    margin: 0;
+    flex: 1;
+    line-height: 1.4;
+}
+
+.hero article img {
+    float: right;
+    width: 100px;
+    height: auto;
+    border-radius: 4px;
 }
 
 .hero article p {
